@@ -61,8 +61,17 @@
 
 # ----------------------------------------
 
+'''
+write a program to solve a classic ancient chinese puzzle:
+we count 35 heads and 94 legs among the chickens and rabbits in a farm.
+how many rabbits and how many chickens do we have?
+'''
 
-
+for i in range(1,35):
+        j=35-i
+        if i*2+j*4 == 94:
+                print("chicken",i)
+                print("rabbit",j)
 
 
 
